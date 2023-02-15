@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/secondpage', function () {
+    $welcome = 'Pagina 2';
+    return view('secondpage',compact('welcome'));
+})->name('secondpage');
+
+Route::get('/thirdpage', function () {
+    $welcome = 'Pagina 3';
+    return view('thirdpage',compact('welcome'));
+})->name('thirdpage');
+
+
