@@ -14,6 +14,8 @@
     <h1>
         {{$welcome}}
     </h1>
+    <a href="{{route('homepage')}}">Homepage</a>
+    <a href="{{route('thirdpage')}}">Terza pagina</a>
 </body>
 
 </html>

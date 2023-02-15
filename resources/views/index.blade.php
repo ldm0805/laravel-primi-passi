@@ -11,7 +11,7 @@
 <body>
     <h1>Benvenuto in laravel</h1>
     <a href="{{route('secondpage')}}">Seconda pagina</a>
-    <a href="{{route('thirdpage')}}">Seconda pagina</a>
+    <a href="{{route('thirdpage')}}">Terza pagina</a>
 </body>
 
 </html>

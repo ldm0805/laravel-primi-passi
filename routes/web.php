@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('homepage');
 
 Route::get('/secondpage', function () {
     $welcome = 'Pagina 2';
