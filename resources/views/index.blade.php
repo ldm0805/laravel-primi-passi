@@ -8,10 +8,10 @@
     <title>Laravel</title>
 </head>
 <body>
-    <div>
+    <div class="title">
         <h1>Benvenuto in laravel</h1>
     </div>
-    <div class="col">
+    <div class="link">
         <a href="{{route('secondpage')}}">Seconda pagina</a>
         <a href="{{route('thirdpage')}}">Terza pagina</a>
     </div>

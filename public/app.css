@@ -1,21 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h1 {
-    text-align: center;
-    color: red;
-}
-
 div {
     text-align: center
 }
 
+.title {
+    color: #183A1D;
+}
+
+body {
+    background-color: #E1EEDD;
+}
+
 a {
-    margin: 2em;
-    padding: 2em;
+    padding: 1em;
+    margin: 3em;
     text-decoration: none;
-    border: 1px solid black;
+    border: 2px solid #183A1D;
+    color: #183A1D;
+    border-radius: 1em;
+    background-color: #F0A04B;
+}
+
+a:hover {
+    background-color: #df9444;
+
 }

@@ -8,11 +8,15 @@
     <title>laravel</title>
 </head>
     <body>
-        <h1>
-            {{$welcome}}
-        </h1>
-        <a href="{{route('homepage')}}">Homepage</a>
-        <a href="{{route('secondpage')}}">Seconda pagina</a>
+        <div class="title">
+            <h1>
+                {{$welcome}}
+            </h1>
+        </div>
+        <div>
+            <a href="{{route('homepage')}}">Homepage</a>
+            <a href="{{route('secondpage')}}">Seconda pagina</a>
+        </div>
     </body>
 
 </html>
