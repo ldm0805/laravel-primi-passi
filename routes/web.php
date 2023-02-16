@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $welcome = 'Benvenuto in laravel';
+    return view('index',compact('welcome'));
 })->name('homepage');
 
 Route::get('/secondpage', function () {

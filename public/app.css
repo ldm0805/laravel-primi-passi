@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 div {
     text-align: center
 }
 
 .title {
+    margin-top: 2em;
     color: #183A1D;
 }
 
@@ -11,13 +18,16 @@ body {
 }
 
 a {
-    padding: 1em;
+    display: inline-block;
+    padding: 1em 2em;
     margin: 3em;
     text-decoration: none;
     border: 2px solid #183A1D;
     color: #183A1D;
     border-radius: 1em;
     background-color: #F0A04B;
+    font-weight: bold;
+
 }
 
 a:hover {

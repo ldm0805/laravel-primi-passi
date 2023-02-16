@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="title">
-        <h1>Benvenuto in laravel</h1>
+        <h1>{{$welcome}}</h1>
     </div>
     <div class="link">
         <a href="{{route('secondpage')}}">Seconda pagina</a>
