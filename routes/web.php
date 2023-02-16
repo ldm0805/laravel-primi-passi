@@ -15,17 +15,32 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $welcome = 'Benvenuto in laravel';
-    return view('index',compact('welcome'));
+    $data =[
+        'homepage'=> 'homepage',
+        'secondpage'=> 'secondpage',
+        'thirdpage'=> 'thirdpage'
+    ];
+    return view('index',compact('welcome','data'));
 })->name('homepage');
 
 Route::get('/secondpage', function () {
     $welcome = 'Pagina 2';
-    return view('secondpage',compact('welcome'));
+    $data =[
+        'homepage'=> 'homepage',
+        'secondpage'=> 'secondpage',
+        'thirdpage'=> 'thirdpage'
+    ];
+    return view('index',compact('welcome','data'));
 })->name('secondpage');
 
 Route::get('/thirdpage', function () {
     $welcome = 'Pagina 3';
-    return view('thirdpage',compact('welcome'));
+    $data =[
+        'homepage'=> 'homepage',
+        'secondpage'=> 'secondpage',
+        'thirdpage'=> 'thirdpage'
+    ];
+    return view('index',compact('welcome','data'));
 })->name('thirdpage');
 
 

@@ -13,9 +13,12 @@
                 {{$welcome}}
             </h1>
         </div>
-        <div>
-            <a href="{{route('homepage')}}">Homepage</a>
-            <a href="{{route('secondpage')}}">Seconda pagina</a>
+        <div class="link">
+            <ul>
+                @foreach ($data as $key => $item)
+                <li><a href="{{route($item)}}">{{$key}}</a></li>
+                @endforeach
+            </ul>
         </div>
     </body>
 

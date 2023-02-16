@@ -34,3 +34,12 @@ a:hover {
     background-color: #df9444;
 
 }
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
